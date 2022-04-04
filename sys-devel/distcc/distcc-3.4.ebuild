@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-
+# TESTING ONLY. SEE https://github.com/distcc/distcc/issues/454 for issue with pump mode
 PYTHON_COMPAT=( python3_{7..10} )
 
 inherit autotools flag-o-matic prefix python-single-r1 systemd \
