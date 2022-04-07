@@ -60,6 +60,7 @@ DEPEND="${CDEPEND}
 PATCHES=(
 	"${FILESDIR}/${PN}-1.1.9-remove-asciidoctor-from-config.patch"
 	"${FILESDIR}/${PN}-1.2.1-seccomp-rollup.patch"
+	"${FILESDIR}/${PN}-1.2.1-seccomp-rseq-glibc-2.35.patch"
 )
 
 WAF_BINARY="${S}/waf"
